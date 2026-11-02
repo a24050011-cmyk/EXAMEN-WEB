@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Mi currículum vitae</title>
+</head>
+<body>
+
+    <header style="border: 1px solid gray;">
+       <CENTER><h1>CURRICULUM VITAE</h1></CENTER> 
+        <H3>Cristian Rafael Moraga Medina</H3>
+        <h4>Estudiante De Ingenieria En Sistemas Computacionales</h4>
+    </header>
+    <main>
+
+        <section style="border: 1px solid gray;">
+        <label>
+        <b>Informacion Personal:</b>
+    </label>
+
+    <ul>
+        <li>Correo: <a href="mailto:cris1311206@gmail.com"> cris1311206@gmail.com</a></li>
+        <li>Telefono: 6231063909</li>
+        <li>Ciudad: Moctezuma, Sonora</li>
+        <li>Edad: 19</li>
+      
+    </ul> 
+<br>
+
+
+<label><b>Informacion Academica: </b></label>
+
+<table border="1px solid black">
+    <thead>
+    <tr>
+        <th >PERIODO</th> 
+        <th colspan="3">INSTITUCION</th>  
+        <th colspan="2">NIVEL</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>2021-2024</td>
+        <TD colspan="3">CECyTES Banamichi</TD>
+        <td colspan="2">Bachillerato</td>
+    </tr>
+    <tr>
+        <td>2024-2026</td>
+        <td colspan="3">Universidad de la Sierra</td>
+        <td colspan="2">Universitario</td>
+    </tr>
+    </tbody>
+</table>
+</section>
+<article style="border: 1px solid gray;">
+<br>
+<label><b>Habilidaddes Tecnicas: </b></label>
+ <ul>
+    <li>HTML</li>
+    <li>JAVA</li>
+    <LI>Programacion Web</LI>
+    <li>Aprendiendo C</li>
+ </ul>
+
+
+ <legend><b>Experiencia Academica: </b></legend>
+<p>Proyecto: Sistema de Gestion Escolar
+    <br>  Desarrollo de una aplicacion web para administrar Informacion
+    de estudiantes, materias y calificaciones
+</p>
+</article>
+<br>
+
+
+<form>
+<div>
+<label>Nombre:</label>      
+<input type="text" placeholder="Nombre">
+</div>
+<br>
+<div>
+<label> Telefono: </label>
+<input type="tel" placeholder="Telefono">
+</div>
+<br>
+<div>
+<label> Correo: </label>
+<input type="email" placeholder="Correo Electronico">
+</div>
+<br>
+<div>
+    <label>Puesto de Interes: </label>
+    <select name="puesto">
+      <option value="CEO">CEO</option>
+      <option value="Ingeniero En Sistemas">Ingeniero</option>
+      <option value="Secretario"> Secretario</option>
+    </select>
+</div>
+<br>
+<div>
+    <label>Tecnologias que domina: </label>
+    <input type="checkbox" id="tec1">
+    <label for="tec1">Tecnologia 1</label>
+
+    
+    <input type="checkbox" id="tec2">
+    <label for="tec2">Tecnologia 2</label>
+    
+    <input type="checkbox" id="tec3">
+    <label for="tec3">Tecnologia 3</label>
+</div>
+<br>
+<div>
+    <label>Presentacion: </label>
+<textarea placeholder="presentacion"></textarea>
+
+</div>
+<br>
+<div>
+    <button type="submit">Subir</button>
+</div>
+
+
+</form>
+
+
+
+</main>
+</body>
+</html>
